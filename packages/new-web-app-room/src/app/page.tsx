@@ -80,7 +80,12 @@ export default function Calculator() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex flex-col items-center justify-center p-4">
+      {/* Header */}
+      <header className="mb-8">
+        <h1 className="text-white text-2xl font-bold text-center">workflow-testing-30</h1>
+      </header>
+      
       <div className="bg-gray-800 rounded-2xl shadow-2xl p-6 w-full max-w-sm">
         {/* Display */}
         <div className="bg-gray-900 rounded-xl p-6 mb-4">
@@ -207,4 +212,5 @@ export default function Calculator() {
     </div>
   );
 }
+
 
